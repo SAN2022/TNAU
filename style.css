@@ -1,0 +1,169 @@
+header{
+    /* background-color: burlywood; */
+    padding: 8px;
+    margin-bottom: -1.5em;
+    border-bottom: 1px solid blue;
+}
+#head-content{
+    width: 25%;
+    /* background-color: coral; */
+    margin: 0 auto;
+    margin-left: 70%;
+}
+header a,.i{
+    padding-right: 10px;
+    border-right: 1px solid blue;
+}
+hr{
+    margin-top: -1em;
+    margin-bottom: 0;
+}
+/********************************************************************************************************************/
+#title{
+    margin-top: -1.5em;
+    padding: 1em 0 1em 20em;
+    /* background-color: cadetblue; */
+    color: darkblue;
+}
+/********************************************************************************************************************/
+ul.list-inline{
+    background-color: yellow;
+    color: darkblue;
+    padding: 1.3em;
+    text-align: center;
+    border-bottom: 3px solid green;
+    margin-bottom: 1em;
+}
+/********************************************************************************************************************/
+#img{
+    margin-bottom: 1em;
+}
+#img h3{
+    background-color: rgba(245, 245, 245, 0.52);
+    position: relative;
+    top: 3em;
+    left: 35em;
+    display: inline;
+    padding: 0.8em;
+    color: orange;
+    font-weight: bold;
+}
+/********************************************************************************************************************/
+.historynews{
+    /* background-color: palegoldenrod; */
+    margin-bottom: 1em;
+}
+.container marquee{
+    font-weight: bold;
+    color: blue;
+}
+.container .col-md-2{
+    /* background-color: burlywood; */
+}
+.container .col-md-2 img{
+    border-radius: 1em;
+    /* transform: translate(15%,10%); */
+}
+.container .marquee{
+    background-color: lightgray;
+}
+.container .col-md-4 marquee a{
+    display: inline-block;
+    padding-bottom: 2em;
+}
+/********************************************************************************************************************/
+.boxwithcon .flexbox{
+    display: flex;
+}
+.boxwithcon .box{
+    width: 18%;
+    background-color: whitesmoke;    
+}
+.boxwithcon .box h1{
+    font-size: 4em;
+    /* display: inline; */
+    float: left;
+    border-bottom: 1.8px solid brown;
+}
+.boxwithcon .box h5{
+    margin: 2.5em 0;
+    padding-left: 5em;
+}
+/********************************************************************************************************************/
+.member{
+    /* background-color: chartreuse; */
+    display: flex;
+    margin-top: 1em;
+}
+.member .box{
+    width: 33%;    
+    margin-right: 2em;
+    background-color: gainsboro;
+}
+.member .box:nth-child(3){
+    text-align: center;
+}
+/********************************************************************************************************************/
+.col-md-8{
+    /* background-color: grey; */
+}
+.videocon{
+    margin-top: 1em;
+    /* background-color: aqua; */
+}
+/********************************************************************************************************************/
+.img h3{
+    font-weight: bold;
+    color: darkgreen;
+    border-bottom: 1px solid darkgreen;
+    padding-bottom: 0.5em;
+}
+/********************************************************************************************************************/
+.col-md-3{
+    /* background-color: rosybrown; */
+}
+.col-md-2{
+    /* background-color: lightblue; */
+}
+.col-md-2 p{
+    color: royalblue;
+}
+.container .footer{
+    background-color: gainsboro;
+    min-height: 330px;    
+    max-height: 400px;
+    margin: 2em 0;
+}
+.footer summary{
+    line-height: 2;
+    color: darkslateblue;
+}
+/********************************************************************************************************************/
+footer{
+    background-color: blue;
+    padding-top: 1em;
+    color: whitesmoke;    
+}
+footer h5{
+    display: inline-block;    
+    font-weight: bold;
+    /* background-color: orangered; */
+}
+footer table{    
+    /* border: 1px solid black;     */
+    font-weight: bold;    
+}
+footer table th{
+    text-align: right;
+}
+footer span{
+    color: orange;
+}
+.footer h4{
+    color: green;
+}
+#send{
+    position: relative;
+    top: -1em;
+    left: 96%;
+}
